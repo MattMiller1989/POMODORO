@@ -1,0 +1,13 @@
+div{
+    border: 1px solid black;
+}
+ul{
+    list-style:none;
+}
+li {
+    display:inline;
+}
+
+#time {
+    font-size:2rem;
+}
