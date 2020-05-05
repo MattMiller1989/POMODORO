@@ -3,6 +3,7 @@ div{
 }
 ul{
     list-style:none;
+    padding-inline-start:0;
 }
 li {
     display:inline;
@@ -10,4 +11,54 @@ li {
 
 #time {
     font-size:2rem;
+    text-align:center;
+}
+
+#controls {
+  text-align:center;
+}
+
+.status-control {
+  width:50%;
+  box-sizing:border-box;
+  text-align:center;
+}
+#control-timer {
+  float:left;
+}
+#rest-timer {
+  float:right;
+}
+.status-butt {
+  font-size:1.5rem;
+  width:2rem;
+}
+.control-butt {
+  width:3rem;
+  height:2rem;
+}
+#play{
+  background-image:url('Controls/16px-Octicons-playback-play.svg.png');
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+#play.pause{
+  background-image:url('Controls/16px-Octicons-playback-pause.svg.png');
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+#stop{
+  background-image:url('Controls/16px-Octicons-primitive-square.svg.png');
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+#back{
+  background-image:url('Controls/32px-Fast_backward_font_awesome.svg.png');
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+#forward{
+  background-image:url('Controls/32px-Fast_forward_font_awesome.svg.png');
+  background-repeat:  no-repeat;
+  background-position: center;
 }
