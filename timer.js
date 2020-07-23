@@ -125,8 +125,12 @@ function displayStatus() {
   let statusDiv=document.getElementById("status")
   if(isBreak){
     statusDiv.innerHTML=" GET OFF MY CLOCK!"
+    statusDiv.classList.add("rest");
+    statusDiv.classList.remove("work");
   }else{
     statusDiv.innerHTML=" GET BACK TO WORK!!1!!"
+    statusDiv.classList.add("work");
+    statusDiv.classList.remove("rest");
   }
 }
 
