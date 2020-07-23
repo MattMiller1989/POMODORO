@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Pomodoro Timer</title>
 	<link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,12 +20,13 @@
                 <li><button id="back" onclick="back()" class="control-butt"></button></li>
                 <li><button id="forward" onclick="forward()" class="control-butt"></button></li></ul>
             </div>
-        </div>
         <div id="status">
 
         </div>
     <div id = "control-timer" class= "status-control"><button id="work-time-minus" onclick="decreaseWork()" class="status-butt">-</button> <span id="control-clock">25:00</span> <button id="work-button-plus" class="status-butt" onclick="increaseWork()">+</button></div>
-    <div id="rest-timer" class= "status-control"><button id="rest-time-minus" class="status-butt" onclick="decreaseRest()">-</button> <span id="rest-clock">5:00</span> <button id="rest-time-plus" class="status-butt" onclick="increaseRest()">+</button></div>
+    <div id="rest-timer" class= "status-control"><button id="rest-time-minus" class="status-butt" onclick="decreaseRest()">-</button> <span id="rest-clock">5:00</span> <button id="rest-time-plus" class="status-butt" onclick="increaseRest()">+</button>
+    </div>
+    </div>
     </body>
     <script src="timer.js"></script>
 </html>
